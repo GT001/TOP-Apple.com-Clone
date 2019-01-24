@@ -83,14 +83,17 @@ nav {
 	left: 50px;
 }
 #yourverse {
-
+width: 100vh;
+height:100vh;
 }
 #products {
 	display:grid;
 	grid-template-columns: repeat(4, 1fr);
 	
 }
-/* ============================= element Specific Details ======================== */
+/* ============================= Section Specific Details ======================== */
+/* ============================= Header Section ======================== */
+
 /* ============================= Products Section ======================== */
 .product-images {
 	margin: 2px 2px 0 0;
@@ -135,8 +138,7 @@ nav {
 	margin: 0 5px;
 }
 .inline img {
-	margin-left: 7px;
+	margin-left: 2px;
 	position:relative;
 	top:1px;
-	align-self: center;
 }

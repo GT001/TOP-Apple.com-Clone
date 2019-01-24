@@ -1,14 +1,17 @@
 ### The Odin Project
 ### PROJECT: BUILDING WITH BACKGROUNDS AND GRADIENTS
-Apple.com Clone 
-###Objective
+
+Apple.com Homepage Clone
+
+### Objective
 Clone an [older version of Apple.com](https://web.archive.org/web/20140301004610/http://www.apple.com/) from web.archive.org.
+
 [View Solution in browser](https://gt001.github.io/TOP-Apple.com-Clone/)
 
-## Introduction
+### Introduction
 In this project you’ll clone the website of one of the most design-forward companies in the world. It’s not a very complex site but it uses background photos well and the navbar at the top contains a gradient that you should be able to mimic.
 
-##Assignment
+### Assignment
 Go to this old version of [apple.com](https://web.archive.org/web/20140301004610/http://www.apple.com/) and have a look around.
 
 Follow the instructions atop the Google Homepage project to set up a Github repository for this project (of course you’ll need to change the title).
