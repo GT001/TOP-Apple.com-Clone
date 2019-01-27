@@ -74,17 +74,19 @@ footer {
 	margin: 30px 0 0 0;
 	}
 /* ============================= 2nd Level Structure ======================== */
-nav {
-	
+
+#nav {
 	height:55px;
 	margin: 0 auto;
-	/* border: 1px solid red; */
+	display:flex;
+	justify-content:center;
+	height:55px;
+	width:1440px;
 }
 #your-verse {
 	display:flex;
 	justify-content: center;
 	position: relative;
-	
 	width: 1440;
 	height:630px;
 }
@@ -95,13 +97,102 @@ nav {
 }
 /* ============================= Section Specific Details ======================== */
 /* ============================= Header Section ======================== */
-nav ul {
-	border: 1px solid red;
+#nav div {
+	margin:0;
+	padding:0;
+	margin-top:18px;
+	height:36px;
+	width: 102px;
+	
+	background-repeat: no-repeat, no-repeat;
 }
-nav li {
-	display:inline;
-	background: linear-gradient(grey, lightgrey);
-	padding: 15px 20px;
+#nav #apple {
+	background: url("images/log.svg"),url("images/globalnav.png");
+	background-position: -30px 3px, 0 0;
+}
+#nav #apple:hover {
+	background: url("images/log.svg"),url("images/globalnav.png");
+	background-position: -30px 3px, 0px -72px;
+}
+#nav #Store {
+	background: url("images/log.svg"),url("images/globalnav.png");
+	background-position: -35px -26px, -102px 0;
+}
+#nav #Store:hover {
+	background: url("images/log.svg"),url("images/globalnav.png");
+	background-position: -35px -26px, -102px -72px;
+} 
+#nav #Mac {
+	background: url("images/log.svg"),url("images/globalnav.png");
+	background-position: -35px -55px, -102px 0;
+}
+#nav #Mac:hover {
+	background: url("images/log.svg"),url("images/globalnav.png");
+	background-position: -35px -55px, -102px -72px;
+
+}
+#nav #iPod {
+	background: url("images/log.svg"),url("images/globalnav.png");
+	background-position: -35px -85px, -102px 0;
+}
+#nav #iPod:hover {
+	background: url("images/log.svg"),url("images/globalnav.png");
+	background-position: -35px -85px, -102px -72px;
+}
+#nav #iPhone {
+	background: url("images/log.svg"),url("images/globalnav.png");
+	background-position: -35px -115px, -102px 0;
+}
+#nav #iPhone:hover {
+	background: url("images/log.svg"),url("images/globalnav.png");
+	background-position: -35px -115px, -102px -72px;
+}
+#nav #iPad {
+	background: url("images/log.svg"),url("images/globalnav.png");
+	background-position: -35px -145px, -102px 0;
+}
+#nav #iPad:hover {
+	background: url("images/log.svg"),url("images/globalnav.png");
+	background-position: -35px -145px, -102px -72px;
+}
+#nav #iTunes {
+	background: url("images/log.svg"),url("images/globalnav.png");
+	background-position: -35px -175px, -102px 0;
+}
+#nav #iTunes:hover {
+	background: url("images/log.svg"),url("images/globalnav.png");
+	background-position: -35px -175px, -102px -72px;
+}
+#nav #Support {
+	background: url("images/log.svg"),url("images/globalnav.png");
+	background-position: -35px -205px, -102px 0;
+}
+#nav #Support:hover {
+	background: url("images/log.svg"),url("images/globalnav.png");
+	background-position: -35px -205px, -102px -72px;
+}
+#nav #search {
+	background:url("images/globalsearch_bg.png");
+	background-position:bottom right ;
+	background-repeat: no-repeat;
+	background-size: 132px 36px;
+	height:36px;
+	width: 132px;
+	
+	position:relative;
+}
+#nav #search:before {
+	background: url("images/globalsearch_field.png");
+	background-position: 0px 0px;
+	background-repeat: no-repeat;
+	background-size: 110px 40px;
+	height:20px;
+	position:absolute;
+	z-index: 10;
+	content: '';
+	width:120px;
+	left:10px;
+	top:8px;
 }
 #your-verse-link {
 	width: 100%;
@@ -109,7 +200,6 @@ nav li {
 	position:absolute;
 	top:0;
 	left:0;
-	
 }
 #your-verse-images {
 	min-width: 300px;
@@ -124,7 +214,7 @@ nav li {
 	grid-row:2/3;
 	background-image: url("images/your_verse_title_small.png");
 	background-repeat: no-repeat;
-	background-position: 0px 0px;
+	background-position: 10px 0px;
 	width:980px;
 	height:100px;
 }
